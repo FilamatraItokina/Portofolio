@@ -1,0 +1,40 @@
+@keyframes introBoite{
+  0%{
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+h2 {
+  text-decoration: none;
+  background: linear-gradient(to right, #1618F5 0%, #8516F5 50%, #16B7F5 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+
+strong{
+  text-decoration: none;
+  background: linear-gradient(to right, #1618F5 0%, #8516F5 50%, #16B7F5 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+.boiteP {
+  padding: 20px;
+  border: solid 1px lightgrey;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 8px 24px lightgrey;
+  animation: introBoite 2s ease-out;
+  position: relative;
+  top: 150px;
+}
