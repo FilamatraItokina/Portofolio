@@ -18,7 +18,7 @@ body{
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    transform: rotate(10deg);
+    transform: rotate(20deg);
     transform: translateX(-30px);
   }
   100%{
